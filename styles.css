@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+.introductionContainer{
+    background-color: #0891B2;
+    margin-bottom: 2rem;
+
+}
+.introductionContent{
+    width: 70%;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+}
+
+.introductionText{
+    margin-top: 2rem;
+    flex-grow: 1;
+    border-radius: 1px;
+    box-shadow: 1px solid black;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    position: relative;
+    padding-right: 2rem;
+    background-color: white;
+}
+
+.introductionText > h1 {
+    font-weight: 500;
+}
+
+.introductionText >p {
+    color: rgb(75, 75, 75);
+}
+
+.flx{
+    display: flex;
+}
+
+.flxCenter{
+    justify-content: center;
+}
+
+body{
+    margin: 0px;
+}
+
+
+*{
+    font-family: "inter";
+}
+
+.social{
+    position: absolute;
+    right: 4rem;
+    bottom: 4rem;
+}
+
+.imageContainer{
+    position: relative;
+}
+
+.imgName{
+    position:absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: rgb(87, 87, 87);
+    font-size: 2rem;
+    font-weight: 600;
+    margin: auto;
+}
+
+.myWork{
+    width: 70%;
+    margin: auto;
+}
+
+.projectInfoContainer{
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 0px;
+}
+
+.card{
+    width: 250px;
+}
