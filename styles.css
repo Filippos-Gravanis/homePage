@@ -118,6 +118,7 @@ body{
 .footer{
     margin-top: 4rem;
     background-color:#0891B2;
+    padding-bottom: 3rem;
 }
 
 .footerContent{
@@ -129,5 +130,16 @@ body{
 
 
 .footerText{
+    margin-top: 2rem;
+}
+
+.imgFooter{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 2rem;
+    max-height: 400px;
+}
+
+.footerText p{
     margin-top: 2rem;
 }
