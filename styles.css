@@ -14,14 +14,15 @@
 
 .introductionText{
     margin-top: 2rem;
-    flex-grow: 1;
     border-radius: 1px;
+    flex-grow: 0;
     box-shadow: 1px solid black;
     margin-bottom: 2rem;
     padding-left: 2rem;
     position: relative;
     padding-right: 2rem;
     background-color: white;
+    max-width: 800px;
 }
 
 .introductionText > h1 {
@@ -76,10 +77,36 @@ body{
 
 .projectInfoContainer{
     background-color: white;
-    border: 1px solid gray;
     margin-top: 0px;
+    box-shadow: 5px 5px 30px 4px rgba(0,0,0,0.75);
+    padding: 1rem;
 }
+    
 
 .card{
     width: 250px;
+}
+
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+
+}
+
+.projectImage{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+
+.projectName {
+    font-weight: 600;
+}
+
+.projectDescription{
+    margin-top: .5rem;
+    max-height: 100px;
+    overflow: hidden;
 }
