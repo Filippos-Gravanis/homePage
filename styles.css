@@ -16,7 +16,7 @@
     margin-top: 2rem;
     border-radius: 1px;
     flex-grow: 0;
-    box-shadow: 1px solid black;
+    box-shadow: 5px 5px 30px 4px rgba(0,0,0,0.75);
     margin-bottom: 2rem;
     padding-left: 2rem;
     position: relative;
@@ -109,4 +109,25 @@ body{
     margin-top: .5rem;
     max-height: 100px;
     overflow: hidden;
+    font-size: .9rem;
+    color: rgb(117, 117, 117);
+}
+
+
+
+.footer{
+    margin-top: 4rem;
+    background-color:#0891B2;
+}
+
+.footerContent{
+    color: white;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+
+.footerText{
+    margin-top: 2rem;
 }
